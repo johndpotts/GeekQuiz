@@ -16,73 +16,73 @@
 
             questions.Add(new TriviaQuestion
             {
-                Title = "When was .NET first released?",
+                Title = "What does the keyword virtual mean in the method definition?",
                 Options = (new TriviaOption[]
                 {
-                    new TriviaOption { Title = "2000", IsCorrect = false },
-                    new TriviaOption { Title = "2001", IsCorrect = false },
-                    new TriviaOption { Title = "2002", IsCorrect = true },
-                    new TriviaOption { Title = "2003", IsCorrect = false }
+                    new TriviaOption { Title = "The method is public", IsCorrect = false },
+                    new TriviaOption { Title = "The method can be derived", IsCorrect = false },
+                    new TriviaOption { Title = "The method can be over-ridden", IsCorrect = true },
+                    new TriviaOption { Title = "The method is static", IsCorrect = false }
                 }).ToList()
             });
 
             questions.Add(new TriviaQuestion
             {
-                Title = "What fictional company did Nancy Davolio work for?",
+                Title = "Readonly variables...",
                 Options = (new TriviaOption[]
                 {
-                    new TriviaOption { Title = "Contoso Ltd.", IsCorrect = false },
-                    new TriviaOption { Title = "Initech", IsCorrect = false },
-                    new TriviaOption { Title = "Fabrikam, Inc.", IsCorrect = false },
-                    new TriviaOption { Title = "Northwind Traders", IsCorrect = true }
+                    new TriviaOption { Title = "Are allocated at compile time", IsCorrect = false },
+                    new TriviaOption { Title = "Can have declaration and initialization separated", IsCorrect = false },
+                    new TriviaOption { Title = "Are initialized at runtime", IsCorrect = false },
+                    new TriviaOption { Title = "All of the above", IsCorrect = true }
                 }).ToList()
             });
 
             questions.Add(new TriviaQuestion
             {
-                Title = "The first and still the oldest domain name on the internet is:",
+                Title = "How is a single line comment made in C#?",
                 Options = (new TriviaOption[]
                 {
-                    new TriviaOption { Title = "Network.com", IsCorrect = false },
-                    new TriviaOption { Title = "Alpha4.com", IsCorrect = false },
-                    new TriviaOption { Title = "Symbolics.com", IsCorrect = true },
-                    new TriviaOption { Title = "InterConnect.com", IsCorrect = false }
+                    new TriviaOption { Title = "#", IsCorrect = false },
+                    new TriviaOption { Title = "<!--", IsCorrect = false },
+                    new TriviaOption { Title = "//", IsCorrect = true },
+                    new TriviaOption { Title = "[comment]", IsCorrect = false }
                 }).ToList()
             });
 
             questions.Add(new TriviaQuestion
             {
-                Title = "Which is not actually a Thing.js?",
+                Title = "What is a 'sealed' class in C#?",
                 Options = (new TriviaOption[]
                 {
-                    new TriviaOption { Title = "Mustache.js", IsCorrect = false },
-                    new TriviaOption { Title = "Hammer.js", IsCorrect = false },
-                    new TriviaOption { Title = "Horseradish.js", IsCorrect = true },
-                    new TriviaOption { Title = "Uglify.js", IsCorrect = false }
+                    new TriviaOption { Title = "A class that must be inherited", IsCorrect = false },
+                    new TriviaOption { Title = "An interface", IsCorrect = false },
+                    new TriviaOption { Title = "A class that cannot be inherited", IsCorrect = true },
+                    new TriviaOption { Title = "A class with no methods", IsCorrect = false }
                 }).ToList()
             });
 
             questions.Add(new TriviaQuestion
             {
-                Title = "In what year was the first Voice Over IP (VOIP) call made?",
+                Title = "What are namespaces in C#?",
                 Options = (new TriviaOption[]
                 {
-                    new TriviaOption { Title = "1973", IsCorrect = true },
-                    new TriviaOption { Title = "1982", IsCorrect = false },
-                    new TriviaOption { Title = "1991", IsCorrect = false },
-                    new TriviaOption { Title = "1994", IsCorrect = false }
+                    new TriviaOption { Title = "containers for classes", IsCorrect = true },
+                    new TriviaOption { Title = "strings", IsCorrect = false },
+                    new TriviaOption { Title = "sealed classes", IsCorrect = false },
+                    new TriviaOption { Title = "variables that haven't been declared", IsCorrect = false }
                 }).ToList()
             });
 
             questions.Add(new TriviaQuestion
             {
-                Title = "\"Chicago\" was the codename for what Microsoft product?",
+                Title = "What is the keyword 'const' used for?",
                 Options = (new TriviaOption[]
                 {
-                    new TriviaOption { Title = "Visual Basic", IsCorrect = false },
-                    new TriviaOption { Title = "Microsoft Surface", IsCorrect = false },
-                    new TriviaOption { Title = "Windows 95", IsCorrect = true },
-                    new TriviaOption { Title = "Xbox", IsCorrect = false }
+                    new TriviaOption { Title = "To start a constructor", IsCorrect = false },
+                    new TriviaOption { Title = "To define what constitutes a class", IsCorrect = false },
+                    new TriviaOption { Title = "To declare a constant, unchangeable value", IsCorrect = true },
+                    new TriviaOption { Title = "to reference the constitution namespace", IsCorrect = false }
                 }).ToList()
             });
 
@@ -100,272 +100,272 @@
 
             questions.Add(new TriviaQuestion
             {
-                Title = "What was the first CodePlex.com project?",
+                Title = "How is exception handling done in C#?",
                 Options = (new TriviaOption[]
                 {
-                    new TriviaOption { Title = "EntLib", IsCorrect = false },
-                    new TriviaOption { Title = "IronPython", IsCorrect = true },
-                    new TriviaOption { Title = "Ajax Toolkit", IsCorrect = false },
-                    new TriviaOption { Title = "JSON.Net", IsCorrect = false }
+                    new TriviaOption { Title = "An 'if...then' block'", IsCorrect = false },
+                    new TriviaOption { Title = "A 'try...catch' block", IsCorrect = true },
+                    new TriviaOption { Title = "Console logging", IsCorrect = false },
+                    new TriviaOption { Title = "Discreet intervals", IsCorrect = false }
                 }).ToList()
             });
 
             questions.Add(new TriviaQuestion
             {
-                Title = "Last name of the employee who wears Microsoft badge 00001",
+                Title = "What are the two types of errors in C#?",
                 Options = (new TriviaOption[]
                 {
-                    new TriviaOption { Title = "McDonald", IsCorrect = true },
-                    new TriviaOption { Title = "Gates", IsCorrect = false },
-                    new TriviaOption { Title = "Ballmer", IsCorrect = false },
-                    new TriviaOption { Title = "Allen", IsCorrect = false }
+                    new TriviaOption { Title = "Compile Time and Run Time", IsCorrect = true },
+                    new TriviaOption { Title = "Run Time and Initialization", IsCorrect = false },
+                    new TriviaOption { Title = "Initialization and Connection", IsCorrect = false },
+                    new TriviaOption { Title = "Connection and Logic", IsCorrect = false }
                 }).ToList()
             });
 
             questions.Add(new TriviaQuestion
             {
-                Title = "When did Scott Hanselman join Microsoft?",
+                Title = "What kind of method does not return a value?",
                 Options = (new TriviaOption[]
                 {
-                    new TriviaOption { Title = "2007", IsCorrect = true },
-                    new TriviaOption { Title = "2000", IsCorrect = false },
-                    new TriviaOption { Title = "2005", IsCorrect = false },
-                    new TriviaOption { Title = "2009", IsCorrect = false }
+                    new TriviaOption { Title = "void", IsCorrect = true },
+                    new TriviaOption { Title = "empty", IsCorrect = false },
+                    new TriviaOption { Title = "static", IsCorrect = false },
+                    new TriviaOption { Title = "output", IsCorrect = false }
                 }).ToList()
             });
 
             questions.Add(new TriviaQuestion
             {
-                Title = "How big is a nibble?",
+                Title = "What is a jagged array?",
                 Options = (new TriviaOption[]
                 {
-                    new TriviaOption { Title = "4 bits", IsCorrect = true },
-                    new TriviaOption { Title = "8 bits", IsCorrect = false },
-                    new TriviaOption { Title = "16 bits", IsCorrect = false },
-                    new TriviaOption { Title = "2 bits", IsCorrect = false }
+                    new TriviaOption { Title = "An array of arrays with different sizes", IsCorrect = true },
+                    new TriviaOption { Title = "An array with an odd amount of members", IsCorrect = false },
+                    new TriviaOption { Title = "An array of both int and string types", IsCorrect = false },
+                    new TriviaOption { Title = "There is no such thing", IsCorrect = false }
                 }).ToList()
             });
 
             questions.Add(new TriviaQuestion
             {
-                Title = "How many function calls did Windows 1.0 approximately have?",
+                Title = "Which of these is not a number value type?",
                 Options = (new TriviaOption[]
                 {
-                    new TriviaOption { Title = "100", IsCorrect = false },
-                    new TriviaOption { Title = "200", IsCorrect = false },
-                    new TriviaOption { Title = "600", IsCorrect = false },
-                    new TriviaOption { Title = "400", IsCorrect = true }
+                    new TriviaOption { Title = "long", IsCorrect = false },
+                    new TriviaOption { Title = "double", IsCorrect = false },
+                    new TriviaOption { Title = "int", IsCorrect = false },
+                    new TriviaOption { Title = "string", IsCorrect = true }
                 }).ToList()
             });
 
             questions.Add(new TriviaQuestion
             {
-                Title = "Which Star Wars movie was filmed entirely in the studio?",
+                Title = "Where are reference types stored?",
                 Options = (new TriviaOption[]
                 {
-                    new TriviaOption { Title = "1", IsCorrect = false },
-                    new TriviaOption { Title = "2", IsCorrect = false },
-                    new TriviaOption { Title = "3", IsCorrect = true },
-                    new TriviaOption { Title = "4", IsCorrect = false }
+                    new TriviaOption { Title = "A floppy disk", IsCorrect = false },
+                    new TriviaOption { Title = "The stack", IsCorrect = false },
+                    new TriviaOption { Title = "The heap", IsCorrect = true },
+                    new TriviaOption { Title = "On the cloud", IsCorrect = false }
                 }).ToList()
             });
 
             questions.Add(new TriviaQuestion
             {
-                Title = "What is Superman's Kryptonian name?",
+                Title = "Where are value types stored?",
                 Options = (new TriviaOption[]
                 {
-                    new TriviaOption { Title = "Jor-El", IsCorrect = false },
-                    new TriviaOption { Title = "Zod", IsCorrect = false },
-                    new TriviaOption { Title = "Kal-El", IsCorrect = true },
-                    new TriviaOption { Title = "Jax-Ur", IsCorrect = false }
+                    new TriviaOption { Title = "The heap", IsCorrect = false },
+                    new TriviaOption { Title = "The cloud", IsCorrect = false },
+                    new TriviaOption { Title = "The stack", IsCorrect = true },
+                    new TriviaOption { Title = "A flash drive", IsCorrect = false }
                 }).ToList()
             });
 
             questions.Add(new TriviaQuestion
             {
-                Title = "What is the image name for the Windows Task Manager application?",
+                Title = "What is the difference between String and StringBuilder?",
                 Options = (new TriviaOption[]
                 {
-                    new TriviaOption { Title = "taskmgr", IsCorrect = true },
-                    new TriviaOption { Title = "tmanager", IsCorrect = false },
-                    new TriviaOption { Title = "wtaskmgr", IsCorrect = false },
-                    new TriviaOption { Title = "wintaskm", IsCorrect = false }
+                    new TriviaOption { Title = "StringBuilder is mutable, String is not", IsCorrect = true },
+                    new TriviaOption { Title = "StringBuilder is an array of Strings", IsCorrect = false },
+                    new TriviaOption { Title = "String is mutable, StringBuilder is not", IsCorrect = false },
+                    new TriviaOption { Title = "They are the same thing in different namespaces", IsCorrect = false }
                 }).ToList()
             });
 
             questions.Add(new TriviaQuestion
             {
-                Title = "When was the internet opened to commercial use?",
+                Title = "How we can sort the array elements in descending order in C#?",
                 Options = (new TriviaOption[]
                 {
-                    new TriviaOption { Title = "1989", IsCorrect = false },
-                    new TriviaOption { Title = "1992", IsCorrect = false },
-                    new TriviaOption { Title = "1990", IsCorrect = false },
-                    new TriviaOption { Title = "1991", IsCorrect = true }
+                    new TriviaOption { Title = "Sort() and Backward()", IsCorrect = false },
+                    new TriviaOption { Title = "Reverse.Sort()", IsCorrect = false },
+                    new TriviaOption { Title = "SortZ->A()", IsCorrect = false },
+                    new TriviaOption { Title = "Sort() and Reverse()", IsCorrect = true }
                 }).ToList()
             });
 
             questions.Add(new TriviaQuestion
             {
-                Title = "When was the Xbox unveiled?",
+                Title = "What is the 'is' operator used for?",
                 Options = (new TriviaOption[]
                 {
-                    new TriviaOption { Title = "2000", IsCorrect = false },
-                    new TriviaOption { Title = "2001", IsCorrect = true },
-                    new TriviaOption { Title = "2002", IsCorrect = false },
-                    new TriviaOption { Title = "2003", IsCorrect = false }
+                    new TriviaOption { Title = "Declare a var", IsCorrect = false },
+                    new TriviaOption { Title = "Check for type", IsCorrect = true },
+                    new TriviaOption { Title = "Change a value", IsCorrect = false },
+                    new TriviaOption { Title = "Cast into a class", IsCorrect = false }
                 }).ToList()
             });
 
             questions.Add(new TriviaQuestion
             {
-                Title = "What is the value of an Object + Array in JavaScript?",
+                Title = "Is C# managed or unmanaged code?",
                 Options = (new TriviaOption[]
                 {
-                    new TriviaOption { Title = "0", IsCorrect = true },
-                    new TriviaOption { Title = "Array", IsCorrect = false },
-                    new TriviaOption { Title = "Object", IsCorrect = false },
-                    new TriviaOption { Title = "Type Error", IsCorrect = false }
+                    new TriviaOption { Title = "managed", IsCorrect = true },
+                    new TriviaOption { Title = "unmanaged", IsCorrect = false },
+                    new TriviaOption { Title = "it can be both", IsCorrect = false },
+                    new TriviaOption { Title = "neither", IsCorrect = false }
                 }).ToList()
             });
 
             questions.Add(new TriviaQuestion
             {
-                Title = "Why was the IBM PCjr despised by users?",
+                Title = "What is a hashtable?",
                 Options = (new TriviaOption[]
                 {
-                    new TriviaOption { Title = "Chicklet keyboard", IsCorrect = false },
-                    new TriviaOption { Title = "No Hard Disk", IsCorrect = false },
-                    new TriviaOption { Title = "Not PC compatible", IsCorrect = false },
-                    new TriviaOption { Title = "All the above", IsCorrect = true }
+                    new TriviaOption { Title = "An array of numbers", IsCorrect = false },
+                    new TriviaOption { Title = "A table that compiles code", IsCorrect = false },
+                    new TriviaOption { Title = "A relational database connection", IsCorrect = false },
+                    new TriviaOption { Title = "A way to store key/value pairs", IsCorrect = true }
                 }).ToList()
             });
 
             questions.Add(new TriviaQuestion
             {
-                Title = "What was the max memory supported by MS-DOS?",
+                Title = "How can you check whether a hash table contains specific key in C#",
                 Options = (new TriviaOption[]
                 {
-                    new TriviaOption { Title = "256K", IsCorrect = false },
-                    new TriviaOption { Title = "512K", IsCorrect = false },
-                    new TriviaOption { Title = "640K", IsCorrect = false },
-                    new TriviaOption { Title = "1M", IsCorrect = true }
+                    new TriviaOption { Title = "HasKey", IsCorrect = false },
+                    new TriviaOption { Title = "ContainsValue", IsCorrect = false },
+                    new TriviaOption { Title = "HasValue", IsCorrect = false },
+                    new TriviaOption { Title = "ContainsKey", IsCorrect = true }
                 }).ToList()
             });
 
             questions.Add(new TriviaQuestion
             {
-                Title = "When was the first laser mouse released?",
+                Title = "What is enum in C#?",
                 Options = (new TriviaOption[]
                 {
-                    new TriviaOption { Title = "2001", IsCorrect = false },
-                    new TriviaOption { Title = "2002", IsCorrect = false },
-                    new TriviaOption { Title = "2003", IsCorrect = false },
-                    new TriviaOption { Title = "2004", IsCorrect = true }
+                    new TriviaOption { Title = "a sorted array", IsCorrect = false },
+                    new TriviaOption { Title = "an enumeration explaining a method", IsCorrect = false },
+                    new TriviaOption { Title = "a public class", IsCorrect = false },
+                    new TriviaOption { Title = "an enumeration of named constants", IsCorrect = true }
                 }).ToList()
             });
 
             questions.Add(new TriviaQuestion
             {
-                Title = "What was Microsoft's first product?",
+                Title = "Which is not a loop type in C#?",
                 Options = (new TriviaOption[]
                 {
-                    new TriviaOption { Title = "DOS", IsCorrect = false },
-                    new TriviaOption { Title = "Altair Basic", IsCorrect = true },
-                    new TriviaOption { Title = "PC Basic", IsCorrect = false },
-                    new TriviaOption { Title = "Windows", IsCorrect = false }
+                    new TriviaOption { Title = "For", IsCorrect = false },
+                    new TriviaOption { Title = "During", IsCorrect = true },
+                    new TriviaOption { Title = "While", IsCorrect = false },
+                    new TriviaOption { Title = "Do...While", IsCorrect = false }
                 }).ToList()
             });
 
             questions.Add(new TriviaQuestion
             {
-                Title = "What building does not exist on the Microsoft campus?",
+                Title = "What does the 'continue' statement do?",
                 Options = (
                     new TriviaOption[]
                     {
-                        new TriviaOption { Title = "1", IsCorrect = false },
-                        new TriviaOption { Title = "7", IsCorrect = true },
-                        new TriviaOption { Title = "99", IsCorrect = false },
-                        new TriviaOption { Title = "115", IsCorrect = false }
+                        new TriviaOption { Title = "breaks out of a loop", IsCorrect = false },
+                        new TriviaOption { Title = "passes control to the next iteration", IsCorrect = true },
+                        new TriviaOption { Title = "passes to another method", IsCorrect = false },
+                        new TriviaOption { Title = "passes to another class", IsCorrect = false }
                     }).ToList()
             });
 
             questions.Add(new TriviaQuestion
             {
-                Title = "Who wrote the first computer program?",
+                Title = "What does the 'break' statement do?",
                 Options = (
                     new TriviaOption[]
                     {
-                        new TriviaOption { Title = "Charles Babbage", IsCorrect = false },
-                        new TriviaOption { Title = "Herman Hollerith", IsCorrect = false },
-                        new TriviaOption { Title = "Ada Lovelace", IsCorrect = true },
-                        new TriviaOption { Title = "Jakob Bernoulli", IsCorrect = false }
+                        new TriviaOption { Title = "calls the garbage collector", IsCorrect = false },
+                        new TriviaOption { Title = "crashes a program", IsCorrect = false },
+                        new TriviaOption { Title = "exits a loop", IsCorrect = true },
+                        new TriviaOption { Title = "deletes a class", IsCorrect = false }
                     }).ToList()
             });
 
             questions.Add(new TriviaQuestion
             {
-                Title = "Visual Basic was first released in what year?",
+                Title = "What is boxing in C#?",
                 Options = (
                     new TriviaOption[]
                     {
-                        new TriviaOption { Title = "1990", IsCorrect = false },
-                        new TriviaOption { Title = "1991", IsCorrect = true },
-                        new TriviaOption { Title = "1992", IsCorrect = false },
-                        new TriviaOption { Title = "1993", IsCorrect = false }
+                        new TriviaOption { Title = "Two variables that come to fisticuffs", IsCorrect = false },
+                        new TriviaOption { Title = "Converting a value type to reference type", IsCorrect = true },
+                        new TriviaOption { Title = "Converting a reference type to a value type", IsCorrect = false },
+                        new TriviaOption { Title = "Compiling code", IsCorrect = false }
                     }).ToList()
             });
 
             questions.Add(new TriviaQuestion
             {
-                Title = "Which of the following is NOT a prime number?",
+                Title = "What is unboxing in C#?",
                 Options = (
                     new TriviaOption[]
                     {
-                        new TriviaOption { Title = "257", IsCorrect = false },
-                        new TriviaOption { Title = "379", IsCorrect = false },
-                        new TriviaOption { Title = "571", IsCorrect = false },
-                        new TriviaOption { Title = "697", IsCorrect = true }
+                        new TriviaOption { Title = "Converting a value type to a reference type", IsCorrect = false },
+                        new TriviaOption { Title = "Compiling code", IsCorrect = false },
+                        new TriviaOption { Title = "Unzipping a file", IsCorrect = false },
+                        new TriviaOption { Title = "Converting a reference type to a value type", IsCorrect = true }
                     }).ToList()
             });
 
             questions.Add(new TriviaQuestion
             {
-                Title = "Yukihiro Matsumoto conceived what programming language on February 24, 1993?",
+                Title = "What is the compiler of C#?",
                 Options = (
                     new TriviaOption[]
                     {
-                        new TriviaOption { Title = "Python", IsCorrect = false },
-                        new TriviaOption { Title = "Ruby", IsCorrect = true },
-                        new TriviaOption { Title = "Perl", IsCorrect = false },
-                        new TriviaOption { Title = "Boo", IsCorrect = false }
+                        new TriviaOption { Title = "Windows Black Box", IsCorrect = false },
+                        new TriviaOption { Title = "CSC", IsCorrect = true },
+                        new TriviaOption { Title = "DLL", IsCorrect = false },
+                        new TriviaOption { Title = "Boolean", IsCorrect = false }
                     }).ToList()
             });
 
             questions.Add(new TriviaQuestion
             {
-                Title = "Which release of the .NET Framework introduced support for dynamic languages?",
+                Title = "What term is used for the execution path of a program?",
                 Options = (
                     new TriviaOption[]
                     {
-                        new TriviaOption { Title = "1.1", IsCorrect = false },
-                        new TriviaOption { Title = "2.0", IsCorrect = false },
-                        new TriviaOption { Title = "3.5", IsCorrect = false },
-                        new TriviaOption { Title = "4.0", IsCorrect = true }
+                        new TriviaOption { Title = "dll", IsCorrect = false },
+                        new TriviaOption { Title = ".exe", IsCorrect = false },
+                        new TriviaOption { Title = "Path", IsCorrect = false },
+                        new TriviaOption { Title = "Thread", IsCorrect = true }
                     }).ToList()
             });
 
             questions.Add(new TriviaQuestion
             {
-                Title = "What is the package manager for Node.js?",
+                Title = "Which is the correct way to concat two strings?",
                 Options = (
                     new TriviaOption[]
                     {
-                        new TriviaOption { Title = "npm", IsCorrect = true },
-                        new TriviaOption { Title = "yum", IsCorrect = false },
-                        new TriviaOption { Title = "rpm", IsCorrect = false },
-                        new TriviaOption { Title = "PEAR", IsCorrect = false }
+                        new TriviaOption { Title = "string.Concat(firstStr, secStr)", IsCorrect = true },
+                        new TriviaOption { Title = "firstStr.Concat(secString)", IsCorrect = false },
+                        new TriviaOption { Title = "firstStr+secStr", IsCorrect = false },
+                        new TriviaOption { Title = "firstStr += secStr", IsCorrect = false }
                     }).ToList()
             });
 
