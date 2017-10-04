@@ -371,14 +371,14 @@
 
             questions.Add(new TriviaQuestion
             {
-                Title = "In the acronym PaaS, what does the P stand for?",
+                Title = "Does C# have multiple inheritance?",
                 Options = (
                     new TriviaOption[] 
                     {
-                        new TriviaOption { Title = "Programming", IsCorrect = false },
-                        new TriviaOption { Title = "Power", IsCorrect = false },
-                        new TriviaOption { Title = "Platform", IsCorrect = true },
-                        new TriviaOption { Title = "Pedestrian", IsCorrect = false }
+                        new TriviaOption { Title = "sometimes", IsCorrect = false },
+                        new TriviaOption { Title = "yes", IsCorrect = false },
+                        new TriviaOption { Title = "no", IsCorrect = true },
+                        new TriviaOption { Title = "only in January", IsCorrect = false }
                     }).ToList()
             });
 
@@ -423,144 +423,144 @@
 
             questions.Add(new TriviaQuestion
             {
-                Title = "Which of the following was not an alternative name considered for XML?",
+                Title = "What is overriding in C#?",
                 Options = (
                     new TriviaOption[]
                     {
-                        new TriviaOption { Title = "MAGMA", IsCorrect = false },
-                        new TriviaOption { Title = "SGML", IsCorrect = true },
-                        new TriviaOption { Title = "SLIM", IsCorrect = false },
-                        new TriviaOption { Title = "MGML", IsCorrect = false }
+                        new TriviaOption { Title = "overloading a method", IsCorrect = false },
+                        new TriviaOption { Title = "changing a base class method", IsCorrect = true },
+                        new TriviaOption { Title = "keeping a base class method", IsCorrect = false },
+                        new TriviaOption { Title = "breaking the thread in two", IsCorrect = false }
                     }).ToList()
             });
 
             questions.Add(new TriviaQuestion
             {
-                Title = "How many HTML tags are defined in the original description of the markup language?",
+                Title = "What is a sealed class?",
                 Options = (
                     new TriviaOption[] 
                     {
-                        new TriviaOption { Title = "1", IsCorrect = false },
-                        new TriviaOption { Title = "11", IsCorrect = false },
-                        new TriviaOption { Title = "18", IsCorrect = true },
-                        new TriviaOption { Title = "25", IsCorrect = false }
+                        new TriviaOption { Title = "Can't be accessed", IsCorrect = false },
+                        new TriviaOption { Title = "Can't be instantiated", IsCorrect = false },
+                        new TriviaOption { Title = "Can't be inherited", IsCorrect = true },
+                        new TriviaOption { Title = "Has no methods", IsCorrect = false }
                     }).ToList()
             });
 
             questions.Add(new TriviaQuestion
             {
-                Title = "Which of the following ECMA standards represents the standardization of JavaScript?",
+                Title = "What is an abstract class?",
                 Options = (
                     new TriviaOption[]
                     {
-                        new TriviaOption { Title = "ECMA-123", IsCorrect = false },
-                        new TriviaOption { Title = "ECMA-262", IsCorrect = true },
-                        new TriviaOption { Title = "ECMA-301", IsCorrect = false },
-                        new TriviaOption { Title = "ECMA-431", IsCorrect = false }
+                        new TriviaOption { Title = "A class that is undeclared", IsCorrect = false },
+                        new TriviaOption { Title = "A class that can't be instantiated", IsCorrect = true },
+                        new TriviaOption { Title = "A set of variables", IsCorrect = false },
+                        new TriviaOption { Title = "A set of methods", IsCorrect = false }
                     }).ToList()
             });
 
             questions.Add(new TriviaQuestion
             {
-                Title = "What was the first Web Browser called?",
+                Title = "Which is an example of polymorphism in C#?",
                 Options = (
                     new TriviaOption[]
                     {
-                        new TriviaOption { Title = "WorldWideWeb", IsCorrect = true },
-                        new TriviaOption { Title = "Mosaic", IsCorrect = false },
-                        new TriviaOption { Title = "Lynx", IsCorrect = false },
-                        new TriviaOption { Title = "Gopher", IsCorrect = false }
+                        new TriviaOption { Title = "A parent and child class", IsCorrect = false },
+                        new TriviaOption { Title = "Dog.speak() and Cat.speak()", IsCorrect = true },
+                        new TriviaOption { Title = "Cat.Meow() and Dog.Bark()", IsCorrect = false },
+                        new TriviaOption { Title = "An abstract namespace", IsCorrect = false }
                     }).ToList()
             });
 
             questions.Add(new TriviaQuestion
             {
-                Title = "In version control systems, the process of bringing together two sets of changes is called what?",
+                Title = "Which is an example of inheritance in C#?",
                 Options = (
                     new TriviaOption[]
                     {
-                        new TriviaOption { Title = "Branch", IsCorrect = false },
-                        new TriviaOption { Title = "Commit", IsCorrect = false },
-                        new TriviaOption { Title = "Merge", IsCorrect = true },
-                        new TriviaOption { Title = "Share", IsCorrect = false }
+                        new TriviaOption { Title = "A method passing along a variable", IsCorrect = false },
+                        new TriviaOption { Title = "Similarly named properties", IsCorrect = false },
+                        new TriviaOption { Title = "A base and a derived class", IsCorrect = true },
+                        new TriviaOption { Title = "A static member", IsCorrect = false }
                     }).ToList()
             });
 
             questions.Add(new TriviaQuestion
             {
-                Title = "In 1980, Microsoft released their first operating system. What was it called?",
+                Title = "Which is not a fundamental concept of object-oriented programming?",
                 Options = (
                     new TriviaOption[]
                     {
-                        new TriviaOption { Title = "MS-DOS", IsCorrect = false },
-                        new TriviaOption { Title = "Windows", IsCorrect = false },
-                        new TriviaOption { Title = "Xenix", IsCorrect = true },
-                        new TriviaOption { Title = "Altair OS", IsCorrect = false }
+                        new TriviaOption { Title = "Encapsulation", IsCorrect = false },
+                        new TriviaOption { Title = "Abstraction", IsCorrect = false },
+                        new TriviaOption { Title = "Compilation", IsCorrect = true },
+                        new TriviaOption { Title = "Inheritance", IsCorrect = false }
                     }).ToList()
             });
 
             questions.Add(new TriviaQuestion
             {
-                Title = "Which ASCII code (in decimal) represents the character B?",
+                Title = "What is overloading in C#",
                 Options = (
                     new TriviaOption[]
                     {
-                        new TriviaOption { Title = "22", IsCorrect = false },
-                        new TriviaOption { Title = "66", IsCorrect = true },
-                        new TriviaOption { Title = "97", IsCorrect = false },
-                        new TriviaOption { Title = "112", IsCorrect = false }
+                        new TriviaOption { Title = "Methods with the same name and signature", IsCorrect = false },
+                        new TriviaOption { Title = "Methods with the same name and different signatures", IsCorrect = true },
+                        new TriviaOption { Title = "Methods with different names and signatures", IsCorrect = false },
+                        new TriviaOption { Title = "Methods with different names and the same signatures", IsCorrect = false }
                     }).ToList()
             });
 
             questions.Add(new TriviaQuestion
             {
-                Title = "Which are the first 6 decimal digits of Pi?",
+                Title = "What methods expose a property?",
                 Options = (
                     new TriviaOption[]
                     {
-                        new TriviaOption { Title = "3.14159", IsCorrect = true },
-                        new TriviaOption { Title = "3.14195", IsCorrect = false },
-                        new TriviaOption { Title = "3.14132", IsCorrect = false },
-                        new TriviaOption { Title = "3.14123", IsCorrect = false }
+                        new TriviaOption { Title = "Get and Set", IsCorrect = true },
+                        new TriviaOption { Title = "Start and End", IsCorrect = false },
+                        new TriviaOption { Title = "On and Off", IsCorrect = false },
+                        new TriviaOption { Title = "Obtain and Release", IsCorrect = false }
                     }).ToList()
             });
 
             questions.Add(new TriviaQuestion
             {
-                Title = "Internet Protocol v4 provides approximately how many addresses?",
+                Title = "Which of these is not an access modifier?",
                 Options = (
                     new TriviaOption[] 
                     {
-                        new TriviaOption { Title = "1.5 billion", IsCorrect = false },
-                        new TriviaOption { Title = "4.3 billion", IsCorrect = true },
-                        new TriviaOption { Title = "55 billion", IsCorrect = false },
-                        new TriviaOption { Title = "3.4 trillion", IsCorrect = false }
+                        new TriviaOption { Title = "Public", IsCorrect = false },
+                        new TriviaOption { Title = "Closed", IsCorrect = true },
+                        new TriviaOption { Title = "Private", IsCorrect = false },
+                        new TriviaOption { Title = "Protected", IsCorrect = false }
                     }).ToList()
             });
 
             questions.Add(new TriviaQuestion
             {
-                Title = "What is Layer 4 of the OSI Model?",
+                Title = "What is an object in C#?",
                 Options = (
                     new TriviaOption[] 
                     {
-                        new TriviaOption { Title = "Network Layer", IsCorrect = false },
-                        new TriviaOption { Title = "Transport Layer", IsCorrect = true },
-                        new TriviaOption { Title = "Session Layer", IsCorrect = false },
-                        new TriviaOption { Title = "Presentation Layer", IsCorrect = false }
+                        new TriviaOption { Title = "A variable", IsCorrect = false },
+                        new TriviaOption { Title = "A specific instance of a class", IsCorrect = true },
+                        new TriviaOption { Title = "A program file", IsCorrect = false },
+                        new TriviaOption { Title = "A virus", IsCorrect = false }
                     }).ToList()
             });
 
             questions.Add(new TriviaQuestion
             {
-                Title = "Which of the following is NOT a value type in the .NET Framework Common Type System?",
+                Title = "What is a class in C#?",
                 Options = (
                     new TriviaOption[]
                     {
-                        new TriviaOption { Title = "System.Integer", IsCorrect = false },
-                        new TriviaOption { Title = "System.String", IsCorrect = true },
-                        new TriviaOption { Title = "System.DateTime", IsCorrect = false },
-                        new TriviaOption { Title = "System.Float", IsCorrect = false }
+                        new TriviaOption { Title = "A specific instance of an object", IsCorrect = false },
+                        new TriviaOption { Title = "A generic defenition of an object", IsCorrect = true },
+                        new TriviaOption { Title = "A property", IsCorrect = false },
+                        new TriviaOption { Title = "A method", IsCorrect = false }
                     }).ToList()
             });
 
