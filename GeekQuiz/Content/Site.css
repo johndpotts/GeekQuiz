@@ -30,7 +30,7 @@ textarea {
 /* Geek Quiz styles */
 .flip-container .back,
 .flip-container .front {
-    border: 5px solid #00bcf2;
+    border: 5px solid #ffd800;
     padding-bottom: 30px;
     padding-top: 30px;
 }
@@ -54,9 +54,7 @@ div.incorrect p {
     color: red;
 }
 
-.btn {
-    border-radius: 0;
-}
+
 
 .flip-container div.front, .flip-container div.back.flip {
     display: block;
