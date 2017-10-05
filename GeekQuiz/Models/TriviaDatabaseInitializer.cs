@@ -19,10 +19,10 @@
                 Title = "What does the keyword virtual mean in the method definition?",
                 Options = (new TriviaOption[]
                 {
-                    new TriviaOption { Title = "The method is public", IsCorrect = false },
+                    new TriviaOption { Title = "The method is public ", IsCorrect = false },
                     new TriviaOption { Title = "The method can be derived", IsCorrect = false },
-                    new TriviaOption { Title = "The method can be over-ridden", IsCorrect = true },
-                    new TriviaOption { Title = "The method is static", IsCorrect = false }
+                    new TriviaOption { Title = "The method can be over-ridden ", IsCorrect = true },
+                    new TriviaOption { Title = " The method is static", IsCorrect = false }
                 }).ToList()
             });
 
