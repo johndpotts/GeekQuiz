@@ -54,15 +54,15 @@ namespace GeekQuiz
             //   consumerKey: "",
             //   consumerSecret: "");
 
-            //app.UseFacebookAuthentication(
-            //   appId: "",
-            //   appSecret: "");
+            app.UseFacebookAuthentication(
+              appId: "136455993655802",
+              appSecret: "f113823c225c06b28ac692ee8b4622ce");
 
-            //app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
-            //{
-            //    ClientId = "",
-            //    ClientSecret = ""
-            //});
+            app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
+            {
+                ClientId = "736876592515-ng7ro33bqs7sutpvrde49ik1hlu23m6f.apps.googleusercontent.com",
+                ClientSecret = "55tG5FAOTZi9gOlNmLazJweo"
+            });
         }
     }
 }
