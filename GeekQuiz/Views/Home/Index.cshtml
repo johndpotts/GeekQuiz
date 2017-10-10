@@ -4,9 +4,14 @@
 
 <div id="bodyContainer" ng-app="QuizApp">
     <section id="content">
-        <div class="container">
+        <div class="container ">
             <div class="row">
-                <div class="flip-container text-center col-md-12" ng-controller="QuizCtrl" ng-init="nextQuestion()">
+                <div class="col-xs-12 title-text">
+                    C# Quiz
+                </div>
+                </div>
+            <div class="row landing">
+                <div class="flip-container text-center col-md-12 " ng-controller="QuizCtrl" ng-init="nextQuestion()">
                     <div class="back" ng-class="{flip: answered, correct: correctAnswer, incorrect:!correctAnswer}">
                         <p class="lead">{{answer()}}</p>
                         <p>
