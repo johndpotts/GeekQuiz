@@ -21,13 +21,16 @@ namespace GeekQuiz
 
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
                       "~/Scripts/bootstrap.js",
-                      "~/Scripts/respond.js"));
+                      "~/Scripts/respond.js",
+                      "~/Scripts/site.js"
+                     ));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css",
                       "~/Content/Flip.css",
-                     "~/Content/zocial.css"));
+                     "~/Content/zocial.css"
+                    ).Include("~/Content/font-awesome.css", new CssRewriteUrlTransform()));
         }
     }
 }
