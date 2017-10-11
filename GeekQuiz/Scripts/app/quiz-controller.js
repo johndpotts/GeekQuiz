@@ -3,7 +3,7 @@
         $scope.answered = false;
         $scope.title = "loading question...";
         $scope.options = [];
-        $scope.correctAnswer = false;
+        $scope.correctAnswer = true;
         $scope.working = false;
 
         $scope.answer = function () {

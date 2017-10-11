@@ -19,10 +19,10 @@
     /* flip speed */
     .flip-container > div {
         position: absolute;
-        -moz-transition: .2s;
-        -o-transition: .2s;
-        -webkit-transition: .2s;
-        transition: .2s;
+        -moz-transition: .6s;
+        -o-transition: .6s;
+        -webkit-transition: .6s;
+        transition: .6s;
     }
 
 /* hide back of pane during flip */

@@ -262,6 +262,7 @@
     <Content Include="Content\images\icon-javascript.png" />
     <Content Include="Content\images\icon-mvc.png" />
     <Content Include="Content\images\logo.png" />
+    <Content Include="Content\images\preview.png" />
     <Content Include="Content\zocial.css" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
