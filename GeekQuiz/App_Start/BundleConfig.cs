@@ -29,7 +29,8 @@ namespace GeekQuiz
                       "~/Content/bootstrap.css",
                       "~/Content/site.css",
                       "~/Content/Flip.css",
-                     "~/Content/zocial.css"
+                     "~/Content/zocial.css",
+                     "~/Content/font-awesome.min.css"
                     ).Include("~/Content/font-awesome.css", new CssRewriteUrlTransform()));
         }
     }

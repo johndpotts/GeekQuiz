@@ -256,6 +256,11 @@
     <Content Include="Content\Flip.css" />
     <Content Include="Content\font-awesome.min.css" />
     <Content Include="Content\images\favicon.png" />
+    <Content Include="Content\images\icon-angular.png" />
+    <Content Include="Content\images\icon-c.png" />
+    <Content Include="Content\images\icon-entity.png" />
+    <Content Include="Content\images\icon-javascript.png" />
+    <Content Include="Content\images\icon-mvc.png" />
     <Content Include="Content\images\logo.png" />
     <Content Include="Content\zocial.css" />
     <Content Include="fonts\fontawesome-webfont.svg" />
