@@ -176,3 +176,12 @@ div.incorrect p {
     border: 3px solid #333;
     max-height: 100px;
 }
+#about{
+    margin-top:100px;
+}
+#contact{
+    margin-top: 100px;
+}
+.spacer {
+    margin-right:10px;
+}

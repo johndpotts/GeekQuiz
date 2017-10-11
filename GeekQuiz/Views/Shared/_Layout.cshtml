@@ -27,7 +27,7 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li>@Html.ActionLink("Play", "Index", "Home")</li>
                     <li><a class="section-scroll" href="#about">About</a></li>
-                    <li><a class="section-scroll" href="#contact">Contact</a></li>
+                    <li><a class="section-scroll" href="~/Home/Contact">Contact</a></li>
                    
                 </ul>
                 @Html.Partial("_LoginPartial")
@@ -39,7 +39,7 @@
         <hr />
 
 
-
+        
         <section id="about">
             <div class="row">
                 <div class="col-sm-3 col-xs-1">
@@ -64,7 +64,7 @@
                             <li>Google and Facebook logins with OAuth 2.0 </li>
                             <li>AngularJS enables an interactive quiz system with calls to the back end for questions</li>
                             <li>Mobile-friendly navbar and layout with Bootstrap</li>
-                            <li>Responsive tables and charts created with Bootstrap</li>
+                            <li>Contact section with email functionality</li>
 
                         </ul>
                     </p>
@@ -81,32 +81,37 @@
         <section id="contact">
 
             <div class="row">
-                <div class="col-med-8 col-md-offset-4 text-center">
+               <div class="col-sm-4"></div>
+                <div class="col-sm-8">
                     <h3 class="section-heading">Get in Touch</h3>
                 </div>
             </div>
             <div class="row">
-                <div class="col-sm-4">
-                    <h4>John D Potts</h4>
+                <div class="col-sm-4"></div>
+                <div class="col-sm-8">
+                    <p>John D Potts</p>
                     <ul class="list-unstyled">
                         <li><abbr title="Mail"><span class="icon icon-Mail"></span></abbr> 7929 White Cliffs Dr</li>
                         <li><abbr><span class="icon icon-Mail" style="visibility:hidden"></span></abbr> Mint Hill, NC 28227</li>
                     </ul>
                     <ul class="list-unstyled">
-                        <li><abbr title="Phone"><span class="fa fa-phone fa-2x"></span></abbr> (352) 441-0329</li>
-                        <li><abbr title="Email"><span class="fa fa-envelope fa-2x"></span></abbr><a href="mailto:jdpotts189@gmail.com"> jdpotts189@gmail.com</a></li>
+                        <li><abbr title="Phone"><span class="fa fa-phone fa-2x spacer"></span></abbr>   (352) 441-0329</li>
+                        <br />
+                        <li><abbr title="Email"><span class="fa fa-envelope fa-2x spacer"></span></abbr><a href="~/Home/Contact">   Send me an email</a></li>
+                       <br/>
+                        <li><abbr title="Portfolio Site"><span class="fa fa-globe fa-2x spacer"></span></abbr>   <a href="https://johndpotts.github.io">My Portfolio Site</a></li>
+                        <br />
+                        <li><abbr title="Portfolio Site"><span class="fa fa-github fa-2x spacer"></span></abbr>   <a href="https://github.com/johndpotts">Find me on Github</a></li>
+                        <br />
+                        <li><abbr title="Portfolio Site"><span class="fa fa-linkedin fa-2x spacer"></span></abbr>   <a href="https://www.linkedin.com/in/jdpotts189">Connect on LinkedIn</a></li>
                     </ul>
                     <br />
                     
-                    <a href="https://github.com/johndpotts" target="_blank">
-                        <i class="fa fa-github fa-2x dark"></i>
-                    </a>
-                    <a href="https://www.linkedin.com/in/jdpotts189" target="_blank"><i class="fa fa-linkedin fa-2x dark"></i></a>
-                </div>
-                <div class="col-sm-8">
-                  
-                                    </div>
-            </div>
+                    
+</div>
+               
+                
+            
 
 
         </section>
